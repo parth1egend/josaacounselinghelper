@@ -1,0 +1,27 @@
+Institute	Academic Program Name	Quota	Seat Type	Gender	Opening Rank	Closing Rank
+Indian Institute of Technology Bhubaneswar	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	4174 	4708
+Indian Institute of Technology Bhubaneswar	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	7679 	8804
+Indian Institute of Technology Delhi	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	157 	323
+Indian Institute of Technology Delhi	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	743 	1234
+Indian Institute of Technology Indore	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	1751 	2099
+Indian Institute of Technology Indore	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	4271 	5553
+Indian Institute of Technology Hyderabad	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	771 	1015
+Indian Institute of Technology Hyderabad	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	2700 	2758
+Indian Institute of Technology Patna	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	3854 	4851
+Indian Institute of Technology Patna	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	10136 	11670
+Indian Institute of Technology (ISM) Dhanbad	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	2297 	4335
+Indian Institute of Technology (ISM) Dhanbad	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	8073 	9672
+Indian Institute of Technology Ropar	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	2122 	3954
+Indian Institute of Technology Ropar	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	7735 	9670
+Indian Institute of Technology (BHU) Varanasi	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	1481 	1924
+Indian Institute of Technology (BHU) Varanasi	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	4466 	5444
+Indian Institute of Technology Guwahati	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	899 	1276
+Indian Institute of Technology Guwahati	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	2755 	3849
+Indian Institute of Technology Goa	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	5436 	7932
+Indian Institute of Technology Goa	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	12652 	14787
+Indian Institute of Technology Jammu	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	7000 	8559
+Indian Institute of Technology Jammu	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	13000 	16599
+Indian Institute of Technology Dharwad	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	7381 	8222
+Indian Institute of Technology Dharwad	Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	12015 	12405
+Indian Institute of Technology Mandi	B.Tech in Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	3945 	4285
+Indian Institute of Technology Mandi	B.Tech in Mathematics and Computing (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	9721 	9846

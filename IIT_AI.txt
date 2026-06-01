@@ -1,0 +1,7 @@
+Institute	Academic Program Name	Quota	Seat Type	Gender	Opening Rank	Closing Rank
+Indian Institute of Technology Kharagpur	Artificial Intelligence (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	461 	953
+Indian Institute of Technology Kharagpur	Artificial Intelligence (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	2901 	3194
+Indian Institute of Technology Hyderabad	Artificial Intelligence (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	690 	861
+Indian Institute of Technology Hyderabad	Artificial Intelligence (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	2160 	2515
+Indian Institute of Technology Gandhinagar	Artificial Intelligence (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	1822 	2236
+Indian Institute of Technology Gandhinagar	Artificial Intelligence (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	4941 	5962

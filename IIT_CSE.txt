@@ -1,0 +1,47 @@
+Institute	Academic Program Name	Quota	Seat Type	Gender	Opening Rank	Closing Rank
+Indian Institute of Technology Bhubaneswar	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	2344 	4162
+Indian Institute of Technology Bhubaneswar	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	4082 	6467
+Indian Institute of Technology Bombay	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	1 	66
+Indian Institute of Technology Bombay	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	29 	369
+Indian Institute of Technology Mandi	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	2096 	3123
+Indian Institute of Technology Mandi	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	6922 	7997
+Indian Institute of Technology Delhi	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	24 	126
+Indian Institute of Technology Delhi	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	376 	498
+Indian Institute of Technology Indore	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	952 	1775
+Indian Institute of Technology Indore	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	2695 	3922
+Indian Institute of Technology Kharagpur	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	238 	466
+Indian Institute of Technology Kharagpur	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	1202 	1908
+Indian Institute of Technology Hyderabad	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	339 	673
+Indian Institute of Technology Hyderabad	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	1294 	2121
+Indian Institute of Technology Jodhpur	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	2269 	2918
+Indian Institute of Technology Jodhpur	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	5959 	7224
+Indian Institute of Technology Kanpur	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	147 	271
+Indian Institute of Technology Kanpur	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	507 	1109
+Indian Institute of Technology Madras	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	79 	171
+Indian Institute of Technology Madras	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	389 	866
+Indian Institute of Technology Gandhinagar	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	905 	2020
+Indian Institute of Technology Gandhinagar	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	3718 	4811
+Indian Institute of Technology Patna	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	1954 	3377
+Indian Institute of Technology Patna	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	7383 	9042
+Indian Institute of Technology Roorkee	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	275 	592
+Indian Institute of Technology Roorkee	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	1331 	2047
+Indian Institute of Technology (ISM) Dhanbad	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	2143 	3585
+Indian Institute of Technology (ISM) Dhanbad	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	5353 	7866
+Indian Institute of Technology Ropar	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	1680 	2512
+Indian Institute of Technology Ropar	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	3820 	7118
+Indian Institute of Technology (BHU) Varanasi	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	747 	1489
+Indian Institute of Technology (BHU) Varanasi	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	2832 	3784
+Indian Institute of Technology Guwahati	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	504 	792
+Indian Institute of Technology Guwahati	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	2210 	2694
+Indian Institute of Technology Bhilai	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	4462 	7382
+Indian Institute of Technology Bhilai	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	10332 	12896
+Indian Institute of Technology Goa	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	4256 	6242
+Indian Institute of Technology Goa	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	11372 	12211
+Indian Institute of Technology Palakkad	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	4530 	6454
+Indian Institute of Technology Palakkad	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	6843 	8965
+Indian Institute of Technology Tirupati	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	1916 	5034
+Indian Institute of Technology Tirupati	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	5686 	8459
+Indian Institute of Technology Jammu	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	4704 	6651
+Indian Institute of Technology Jammu	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	9950 	11104
+Indian Institute of Technology Dharwad	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Gender-Neutral 	4742 	7208
+Indian Institute of Technology Dharwad	Computer Science and Engineering (4 Years, Bachelor of Technology) 	AI 	OPEN 	Female-only (including Supernumerary) 	8455 	10860

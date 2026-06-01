@@ -1,0 +1,303 @@
+  1. CR    66 (OR     1)  IIT Bombay — Computer Science and Engineering
+  2. CR   126 (OR    24)  IIT Delhi — Computer Science and Engineering
+  3. CR   171 (OR    79)  IIT Madras — Computer Science and Engineering
+  4. CR   186 (OR   134)  IIT Delhi — Computer Science and Engineering
+  5. CR   271 (OR   147)  IIT Kanpur — Computer Science and Engineering
+  6. CR   306 (OR   102)  IIT Madras — Artificial Intelligence and Data Analytics
+  7. CR   323 (OR   157)  IIT Delhi — Mathematics and Computing
+  8. CR   355 (OR   325)  IIT Delhi — Mathematics and Computing
+  9. CR   433 (OR   106)  IIT Bombay — Electrical Engineering
+ 10. CR   466 (OR   238)  IIT Kharagpur — Computer Science and Engineering
+ 11. CR   592 (OR   275)  IIT Roorkee — Computer Science and Engineering
+ 12. CR   605 (OR   365)  IIT Delhi — Electrical Engineering
+ 13. CR   673 (OR   339)  IIT Hyderabad — Computer Science and Engineering
+ 14. CR   792 (OR   504)  IIT Guwahati — Computer Science and Engineering
+ 15. CR   823 (OR   612)  IIT Delhi — Electrical Engineering
+ 16. CR   841 (OR   470)  IIT Bombay — Electrical Engineering
+ 17. CR   845 (OR   564)  IIT Roorkee — Data Science and Artificial Intelligence
+ 18. CR   849 (OR   205)  IIT Madras — Electrical Engineering
+ 19. CR   861 (OR   690)  IIT Hyderabad — Artificial Intelligence
+ 20. CR   953 (OR   461)  IIT Kharagpur — Artificial Intelligence
+ 21. CR  1015 (OR   771)  IIT Hyderabad — Mathematics and Computing
+ 22. CR  1067 (OR   753)  IIT Bombay — BS in Mathematics
+ 23. CR  1078 (OR   873)  IIT Guwahati — Data Science and Artificial Intelligence
+ 24. CR  1103 (OR   858)  IIT Delhi — Engineering and Computational Mechanics
+ 25. CR  1146 (OR   798)  IIT Kanpur — Electrical Engineering
+ 26. CR  1179 (OR   593)  IIT Kanpur — Mathematics and Scientific Computing
+ 27. CR  1270 (OR   878)  IIT Kanpur — Statistics and Data Science
+ 28. CR  1273 (OR   264)  IIT Bombay — Industrial Engineering and Operations Research
+ 29. CR  1276 (OR   899)  IIT Guwahati — Mathematics and Computing
+ 30. CR  1309 (OR   597)  IIT Madras — Computational Engineering and Mechanics
+ 31. CR  1336 (OR   519)  IIT Kharagpur — Mathematics and Computing
+ 32. CR  1441 (OR   872)  IIT Madras — Engineering Physics
+ 33. CR  1485 (OR   419)  IIT Kharagpur — Electronics and Electrical Communication Engineering
+ 34. CR  1486 (OR  1048)  IIT Roorkee — Electronics and Communication Engineering
+ 35. CR  1489 (OR   747)  IIT (BHU) Varanasi — Computer Science and Engineering
+ 36. CR  1513 (OR  1158)  IIT Roorkee — Mathematics & Computing
+ 37. CR  1539 (OR   122)  IIT Bombay — Engineering Physics
+ 38. CR  1761 (OR  1291)  IIT Delhi — Abu Dhabi Campus - Computer Science and Engineering
+ 39. CR  1775 (OR   952)  IIT Indore — Computer Science and Engineering
+ 40. CR  1829 (OR  1497)  IIT Guwahati — Electronics and Communication Engineering
+ 41. CR  1834 (OR   490)  IIT Bombay — Mechanical Engineering
+ 42. CR  1862 (OR  1156)  IIT Delhi — Mechanical Engineering
+ 43. CR  1866 (OR  1368)  IIT Hyderabad — Computational Engineering
+ 44. CR  1895 (OR  1644)  IIT Hyderabad — Electrical Engineering
+ 45. CR  1900 (OR   848)  IIT Hyderabad — Electrical Engineering
+ 46. CR  1924 (OR  1481)  IIT (BHU) Varanasi — Mathematics and Computing
+ 47. CR  1985 (OR  1492)  IIT Kharagpur — Electrical Engineering
+ 48. CR  2020 (OR   905)  IIT Gandhinagar — Computer Science and Engineering
+ 49. CR  2091 (OR  1254)  IIT Roorkee — Electrical Engineering
+ 50. CR  2099 (OR  1751)  IIT Indore — Mathematics and Computing
+ 51. CR  2195 (OR  1934)  IIT Guwahati — Electronics and Electrical Engineering
+ 52. CR  2236 (OR  1822)  IIT Gandhinagar — Artificial Intelligence
+ 53. CR  2361 (OR  1195)  IIT Bombay — Aerospace Engineering
+ 54. CR  2372 (OR  1531)  IIT Bombay — Economics
+ 55. CR  2464 (OR   601)  IIT Bombay — Chemical Engineering
+ 56. CR  2468 (OR   868)  IIT Madras — Mechanical Engineering
+ 57. CR  2512 (OR  1680)  IIT Ropar — Computer Science and Engineering
+ 58. CR  2548 (OR  1904)  IIT Delhi — Chemical Engineering
+ 59. CR  2565 (OR  1393)  IIT Delhi — Engineering Physics
+ 60. CR  2584 (OR  1810)  IIT Bombay — Energy Engineering
+ 61. CR  2635 (OR  1956)  IIT (BHU) Varanasi — Electronics Engineering
+ 62. CR  2668 (OR  1868)  IIT Delhi — Energy Engineering
+ 63. CR  2741 (OR  2077)  IIT Kharagpur — Instrumentation Engineering
+ 64. CR  2771 (OR  1589)  IIT Kanpur — Mechanical Engineering
+ 65. CR  2808 (OR  2304)  IIT Madras — Aerospace Engineering
+ 66. CR  2918 (OR  2269)  IIT Jodhpur — Computer Science and Engineering
+ 67. CR  3123 (OR  2096)  IIT Mandi — Computer Science and Engineering
+ 68. CR  3211 (OR   662)  IIT Madras — Aerospace Engineering
+ 69. CR  3223 (OR  1988)  IIT Delhi — Production and Industrial Engineering
+ 70. CR  3272 (OR  2225)  IIT Hyderabad — Engineering Science
+ 71. CR  3310 (OR  2625)  IIT Kanpur — Economics
+ 72. CR  3377 (OR  1954)  IIT Patna — Computer Science and Engineering
+ 73. CR  3380 (OR   816)  IIT Madras — Engineering Design
+ 74. CR  3454 (OR  2581)  IIT Delhi — Chemical Engineering
+ 75. CR  3500 (OR  2558)  IIT Ropar — Artificial Intelligence and Data Engineering
+ 76. CR  3537 (OR  2343)  IIT (BHU) Varanasi — Electrical Engineering
+ 77. CR  3585 (OR  2143)  IIT (ISM) Dhanbad — Computer Science and Engineering
+ 78. CR  3723 (OR  2390)  IIT Indore — Electrical Engineering
+ 79. CR  3736 (OR  2499)  IIT Delhi — Materials Engineering
+ 80. CR  3804 (OR  1642)  IIT Madras — Physics
+ 81. CR  3805 (OR  1973)  IIT Kanpur — Aerospace Engineering
+ 82. CR  3897 (OR  2155)  IIT Roorkee — Mechanical Engineering
+ 83. CR  3928 (OR  3221)  IIT Mandi — Data Science and Artificial Intelligence
+ 84. CR  3931 (OR  2282)  IIT Gandhinagar — Electrical Engineering
+ 85. CR  3954 (OR  2122)  IIT Ropar — Mathematics and Computing
+ 86. CR  4016 (OR  2773)  IIT Kharagpur — Mechanical Engineering
+ 87. CR  4116 (OR  2634)  IIT Madras — Chemical Engineering
+ 88. CR  4162 (OR  2344)  IIT Bhubaneswar — Computer Science and Engineering
+ 89. CR  4212 (OR  3049)  IIT Jodhpur — Artificial Intelligence and Data Science
+ 90. CR  4250 (OR  2666)  IIT Bombay — Civil Engineering
+ 91. CR  4280 (OR  2785)  IIT Kanpur — Chemical Engineering
+ 92. CR  4285 (OR  3945)  IIT Mandi — B.Tech in Mathematics and Computing
+ 93. CR  4297 (OR  4297)  IIT Patna — B.Tech
+ 94. CR  4302 (OR  3244)  IIT Delhi — Civil Engineering
+ 95. CR  4312 (OR  3490)  IIT Patna — Artificial Intelligence and Data Science
+ 96. CR  4323 (OR  3514)  IIT Patna — B. Tech.
+ 97. CR  4329 (OR  2873)  IIT Kharagpur — Industrial and Systems Engineering
+ 98. CR  4335 (OR  2297)  IIT (ISM) Dhanbad — Mathematics and Computing
+ 99. CR  4345 (OR  2712)  IIT Bombay — Metallurgical Engineering and Materials Science
+100. CR  4366 (OR  2733)  IIT Madras — Instrumentation and Biomedical Engineering
+101. CR  4443 (OR  2837)  IIT Hyderabad — Mechanical Engineering
+102. CR  4544 (OR  2633)  IIT Roorkee — Engineering Physics
+103. CR  4652 (OR  2295)  IIT Gandhinagar — Integrated Circuit Design & Technology
+104. CR  4679 (OR  4406)  IIT Patna — B.Tech
+105. CR  4686 (OR  3332)  IIT Hyderabad — Engineering Physics
+106. CR  4708 (OR  4174)  IIT Bhubaneswar — Mathematics and Computing
+107. CR  4761 (OR  3321)  IIT Roorkee — Energy Engineering
+108. CR  4777 (OR  3143)  IIT Bombay — Environmental Science and Engineering
+109. CR  4816 (OR  3428)  IIT Roorkee — Chemical Engineering
+110. CR  4851 (OR  3854)  IIT Patna — Mathematics and Computing
+111. CR  4872 (OR  3830)  IIT Kharagpur — Aerospace Engineering
+112. CR  4892 (OR  3984)  IIT Guwahati — Mechanical Engineering
+113. CR  4999 (OR  3147)  IIT Delhi — Biotechnology and Biochemical Engineering
+114. CR  5034 (OR  1916)  IIT Tirupati — Computer Science and Engineering
+115. CR  5192 (OR  5020)  IIT Patna — B.Tech
+116. CR  5222 (OR  4379)  IIT Kharagpur — Chemical Engineering
+117. CR  5261 (OR  4097)  IIT Madras — Biological Engineering
+118. CR  5266 (OR  5073)  IIT Patna — B. Tech.
+119. CR  5499 (OR  4369)  IIT Madras — Metallurgical and Materials Engineering
+120. CR  5527 (OR  4759)  IIT Ropar — Electrical Engineering
+121. CR  5590 (OR  4661)  IIT Delhi — Abu Dhabi Campus - Energy Engineering
+122. CR  5691 (OR  3255)  IIT Kanpur — Physics
+123. CR  5712 (OR  5200)  IIT Delhi — Abu Dhabi Campus - Chemical Engineering
+124. CR  5733 (OR  5015)  IIT Delhi — Textile Technology
+125. CR  5756 (OR  4432)  IIT Hyderabad — Chemical Engineering
+126. CR  5820 (OR  4510)  IIT Roorkee — Production and Industrial Engineering
+127. CR  5839 (OR  2795)  IIT (ISM) Dhanbad — Electronics and Communication Engineering
+128. CR  5885 (OR  3873)  IIT Bhubaneswar — Electronics and Communication Engineering
+129. CR  5938 (OR  3876)  IIT Roorkee — Economics
+130. CR  6053 (OR  4289)  IIT Guwahati — Chemical Engineering
+131. CR  6063 (OR  3681)  IIT Kharagpur — Economics
+132. CR  6112 (OR  4356)  IIT Madras — Civil Engineering
+133. CR  6161 (OR  4361)  IIT Kanpur — Civil Engineering
+134. CR  6166 (OR  4593)  IIT Mandi — B.Tech in Microelectronics & VLSI
+135. CR  6167 (OR  4803)  IIT Patna — Electronics and Communication Engineering
+136. CR  6228 (OR  4392)  IIT Jodhpur — Electronics Engineering
+137. CR  6242 (OR  4256)  IIT Goa — Computer Science and Engineering
+138. CR  6311 (OR  3940)  IIT Ropar — Electrical Engineering
+139. CR  6337 (OR  4862)  IIT Kanpur — Materials Science and Engineering
+140. CR  6454 (OR  4530)  IIT Palakkad — Computer Science and Engineering
+141. CR  6547 (OR  5124)  IIT Kharagpur — Manufacturing Science and Engineering
+142. CR  6610 (OR  5870)  IIT Guwahati — Energy Engineering
+143. CR  6651 (OR  4704)  IIT Jammu — Computer Science and Engineering
+144. CR  6824 (OR  5270)  IIT Jodhpur — Electrical Engineering
+145. CR  6870 (OR  5247)  IIT Roorkee — Civil Engineering
+146. CR  6904 (OR  4409)  IIT Gandhinagar — Mechanical Engineering
+147. CR  7105 (OR  3559)  IIT Kanpur — Biological Sciences and Bioengineering
+148. CR  7117 (OR  4635)  IIT Guwahati — Engineering Physics
+149. CR  7208 (OR  4742)  IIT Dharwad — Computer Science and Engineering
+150. CR  7228 (OR  3133)  IIT Bombay — Chemistry
+151. CR  7286 (OR  4787)  IIT (BHU) Varanasi — Mechanical Engineering
+152. CR  7341 (OR  6280)  IIT Roorkee — Metallurgical and Materials Engineering
+153. CR  7382 (OR  4462)  IIT Bhilai — Computer Science and Engineering
+154. CR  7419 (OR  5679)  IIT Indore — Space Science and Engineering
+155. CR  7433 (OR  4908)  IIT Madras — Naval Architecture and Ocean Engineering
+156. CR  7502 (OR  6177)  IIT Patna — Electrical and Electronics Engineering
+157. CR  7545 (OR  4522)  IIT Indore — Mechanical Engineering
+158. CR  7590 (OR  5136)  IIT Mandi — Electrical Engineering
+159. CR  7603 (OR  5842)  IIT (ISM) Dhanbad — Electrical Engineering
+160. CR  7604 (OR  6084)  IIT Hyderabad — Materials Science and Metallurgical Engineering
+161. CR  7708 (OR  5552)  IIT Kharagpur — Metallurgical and Materials Engineering
+162. CR  7742 (OR  6383)  IIT Patna — B. Tech.
+163. CR  7774 (OR  6188)  IIT Kharagpur — Civil Engineering
+164. CR  7786 (OR  6305)  IIT Patna — B.Tech. in Electronics and Communication Engineering and M.Tech. in Communication Systems
+165. CR  7932 (OR  5436)  IIT Goa — Mathematics and Computing
+166. CR  7934 (OR  7001)  IIT Bhilai — Data Science and Artificial Intelligence
+167. CR  7958 (OR  6432)  IIT Guwahati — Chemical Science and Technology
+168. CR  8159 (OR   752)  IIT Roorkee — Biosciences and Bioengineering
+169. CR  8165 (OR  5974)  IIT Bhubaneswar — Electrical Engineering
+170. CR  8222 (OR  7381)  IIT Dharwad — Mathematics and Computing
+171. CR  8283 (OR  7854)  IIT Patna — B. Tech.
+172. CR  8299 (OR  5236)  IIT Indore — Engineering Physics
+173. CR  8343 (OR  6087)  IIT Bombay — Applied Geophysics
+174. CR  8351 (OR  6111)  IIT Patna — B.Tech
+175. CR  8376 (OR  4950)  IIT Hyderabad — Biomedical Engineering
+176. CR  8381 (OR  6239)  IIT (BHU) Varanasi — Chemical Engineering
+177. CR  8441 (OR  5457)  IIT (BHU) Varanasi — Engineering Physics
+178. CR  8528 (OR  6267)  IIT Delhi — Chemistry
+179. CR  8559 (OR  7000)  IIT Jammu — Mathematics and Computing
+180. CR  8640 (OR  6845)  IIT Palakkad — Data Science and Engineering
+181. CR  8698 (OR  5850)  IIT Hyderabad — Civil Engineering
+182. CR  8739 (OR  7880)  IIT Patna — B.Tech
+183. CR  8824 (OR  7246)  IIT Indore — Chemical Engineering
+184. CR  8870 (OR  6428)  IIT Roorkee — Geophysical Technology
+185. CR  9021 (OR  7268)  IIT Guwahati — Civil Engineering
+186. CR  9115 (OR  7135)  IIT Ropar — Mechanical Engineering
+187. CR  9224 (OR  6774)  IIT Kharagpur — Biotechnology and Biochemical Engineering
+188. CR  9276 (OR  6852)  IIT Gandhinagar — Chemical Engineering
+189. CR  9378 (OR  5421)  IIT Hyderabad — Biotechnology and Bioinformatics
+190. CR  9468 (OR  5098)  IIT Tirupati — Electrical Engineering
+191. CR  9476 (OR  7720)  IIT Dharwad — Electronics and Communication Engineering
+192. CR  9569 (OR  7550)  IIT Jodhpur — Mechanical Engineering
+193. CR  9576 (OR  7857)  IIT Ropar — Engineering Physics
+194. CR  9668 (OR  7464)  IIT Bhilai — Electronics and Communication Engineering
+195. CR  9708 (OR  9062)  IIT Patna — B.Tech
+196. CR 10016 (OR  8661)  IIT Roorkee — Geological Technology
+197. CR 10043 (OR  7757)  IIT Hyderabad — Industrial Chemistry
+198. CR 10074 (OR  7465)  IIT Kharagpur — Ocean Engineering and Naval Architecture
+199. CR 10095 (OR  8410)  IIT Goa — Electrical Engineering
+200. CR 10108 (OR  8158)  IIT Kanpur — Earth Sciences
+201. CR 10153 (OR  7903)  IIT Patna — B. Tech.
+202. CR 10171 (OR  4489)  IIT Roorkee — Physics
+203. CR 10267 (OR  8023)  IIT Mandi — Mechanical Engineering
+204. CR 10273 (OR  7662)  IIT (ISM) Dhanbad — Mechanical Engineering
+205. CR 10278 (OR  7606)  IIT (BHU) Varanasi — Civil Engineering
+206. CR 10290 (OR  3268)  IIT Madras — Biological Science
+207. CR 10396 (OR  8020)  IIT Palakkad — Electrical Engineering
+208. CR 10482 (OR  8553)  IIT Kanpur — Chemistry
+209. CR 10641 (OR  9004)  IIT Indore — Civil Engineering
+210. CR 10655 (OR  8901)  IIT Ropar — Chemical Engineering
+211. CR 10727 (OR  6303)  IIT Guwahati — Biosciences and Bioengineering
+212. CR 10765 (OR  7833)  IIT Kharagpur — Mining Engineering
+213. CR 10796 (OR  9310)  IIT Gandhinagar — Civil Engineering
+214. CR 10851 (OR  7517)  IIT (BHU) Varanasi — Materials Science and Technology
+215. CR 10939 (OR  7367)  IIT Kharagpur — Physics
+216. CR 11034 (OR  8480)  IIT Mandi — B.Tech in General Engineering
+217. CR 11051 (OR  9720)  IIT Dharwad — Electrical and Electronics Engineering
+218. CR 11066 (OR  7239)  IIT Gandhinagar — Materials Engineering
+219. CR 11111 (OR  6545)  IIT Kharagpur — Agricultural and Food Engineering
+220. CR 11130 (OR  9374)  IIT Roorkee — Chemical Sciences
+221. CR 11274 (OR  8439)  IIT Indore — Metallurgical Engineering and Materials Science
+222. CR 11398 (OR  8214)  IIT (BHU) Varanasi — Metallurgical Engineering
+223. CR 11399 (OR  9759)  IIT Jammu — Electrical Engineering
+224. CR 11592 (OR  9645)  IIT Bhilai — Electrical Engineering
+225. CR 11626 (OR  9595)  IIT Jodhpur — Chemical Engineering
+226. CR 11678 (OR  7759)  IIT Bhubaneswar — Mechanical Engineering
+227. CR 11711 (OR  8484)  IIT (ISM) Dhanbad — Engineering Physics
+228. CR 11758 (OR  8588)  IIT Patna — Mechanical Engineering
+229. CR 11980 (OR  9636)  IIT (ISM) Dhanbad — Chemical Engineering
+230. CR 12110 (OR  8831)  IIT Mandi — Engineering Physics
+231. CR 12143 (OR  9551)  IIT Tirupati — Mechanical Engineering
+232. CR 12217 (OR  7813)  IIT Delhi — Design
+233. CR 12254 (OR 10662)  IIT Bhilai — Mechatronics Engineering
+234. CR 12321 (OR 11214)  IIT Kharagpur — Chemistry
+235. CR 12443 (OR 11359)  IIT Kharagpur — Exploration Geophysics
+236. CR 12466 (OR  9525)  IIT Bhubaneswar — Engineering Physics
+237. CR 12488 (OR  9142)  IIT Ropar — Civil Engineering
+238. CR 12606 (OR  8596)  IIT Palakkad — Mechanical Engineering
+239. CR 12709 (OR  9681)  IIT (ISM) Dhanbad — Petroleum Engineering
+240. CR 12721 (OR  9815)  IIT (BHU) Varanasi — Industrial Chemistry
+241. CR 12759 (OR 11380)  IIT (BHU) Varanasi — Bioengineering
+242. CR 12915 (OR 10165)  IIT Tirupati — Engineering Physics
+243. CR 12986 (OR 11060)  IIT Patna — Engineering Physics
+244. CR 12995 (OR 12992)  IIT Patna — B.Tech
+245. CR 13064 (OR 10901)  IIT (BHU) Varanasi — Ceramic Engineering
+246. CR 13255 (OR 11390)  IIT (BHU) Varanasi — Biochemical Engineering
+247. CR 13325 (OR 10729)  IIT Patna — BS in Economics with MBA
+248. CR 13451 (OR  9914)  IIT Goa — Mechanical Engineering
+249. CR 13685 (OR 11734)  IIT Kharagpur — Applied Geology
+250. CR 13715 (OR 11304)  IIT Patna — Chemical Engineering
+251. CR 13720 (OR  7598)  IIT Patna — Economics
+252. CR 13777 (OR 10832)  IIT Ropar — Metallurgical and Materials Engineering
+253. CR 13778 (OR 10753)  IIT (ISM) Dhanbad — Civil Engineering
+254. CR 14243 (OR 11434)  IIT (BHU) Varanasi — Mining Engineering
+255. CR 14274 (OR 10954)  IIT Mandi — Civil Engineering
+256. CR 14301 (OR 11662)  IIT Jodhpur — Civil and Infrastructure Engineering
+257. CR 14368 (OR 12260)  IIT Mandi — B.Tech in Materials Science and Engineering
+258. CR 14447 (OR 11585)  IIT (BHU) Varanasi — Pharmaceutical Engineering & Technology
+259. CR 14453 (OR 11301)  IIT Jammu — Mechanical Engineering
+260. CR 14480 (OR 11311)  IIT Ropar — Digital Agriculture
+261. CR 14788 (OR 11516)  IIT Bhilai — Mechanical Engineering
+262. CR 14852 (OR 11721)  IIT Dharwad — Mechanical Engineering
+263. CR 14875 (OR 11781)  IIT (ISM) Dhanbad — Mineral and Metallurgical Engineering
+264. CR 14879 (OR 12646)  IIT Mandi — Bio Engineering
+265. CR 15010 (OR 14749)  IIT Patna — B.Tech
+266. CR 15034 (OR 11659)  IIT Jodhpur — Materials Engineering
+267. CR 15185 (OR 11193)  IIT Jodhpur — Physics with Specialization
+268. CR 15278 (OR 13106)  IIT Jodhpur — Bio Engineering
+269. CR 15353 (OR 13180)  IIT Dharwad — Engineering Physics
+270. CR 15381 (OR 14157)  IIT Patna — B. Tech in CE. - M. Tech. in Structural Engineering
+271. CR 15400 (OR 12605)  IIT Patna — Civil Engineering
+272. CR 15406 (OR 13449)  IIT Patna — Chemical Science and Technology
+273. CR 15455 (OR 12833)  IIT (ISM) Dhanbad — Mining Engineering
+274. CR 15570 (OR 13577)  IIT Patna — B.Tech
+275. CR 15636 (OR 12799)  IIT Tirupati — Chemical Engineering
+276. CR 15917 (OR 13029)  IIT Jammu — Engineering Physics
+277. CR 16042 (OR 15577)  IIT Patna — B.Tech
+278. CR 16156 (OR 10922)  IIT Bhubaneswar — Civil Engineering
+279. CR 16163 (OR 15042)  IIT Patna — B.Tech
+280. CR 16268 (OR 11591)  IIT Bhubaneswar — Metallurgical and Materials Engineering
+281. CR 16284 (OR 13386)  IIT Jammu — Chemical Engineering
+282. CR 16510 (OR 13771)  IIT Patna — Metallurgical and Materials Engineering
+283. CR 16548 (OR  8956)  IIT Tirupati — Civil Engineering
+284. CR 16579 (OR 12787)  IIT (ISM) Dhanbad — Mining Machinery Engineering
+285. CR 16680 (OR 14722)  IIT Dharwad — Chemical and Biochemical Engineering
+286. CR 16752 (OR 14372)  IIT (ISM) Dhanbad — Environmental Engineering
+287. CR 16753 (OR 14109)  IIT Palakkad — Civil Engineering
+288. CR 16770 (OR 11910)  IIT (ISM) Dhanbad — B.Tech Mining Engineering and MBA in Logistic and Supply Chain Management
+289. CR 16815 (OR 16406)  IIT Patna — B. Tech in CE. - M. Tech. in Geotechnical Engineering
+290. CR 17263 (OR 15448)  IIT Jammu — Civil Engineering
+291. CR 17472 (OR 16126)  IIT Dharwad — Civil and Infrastructure Engineering
+292. CR 17478 (OR 14920)  IIT Bhilai — Materials Science and Metallurgical Engineering
+293. CR 17491 (OR 13425)  IIT Mandi — BS in Chemical Sciences
+294. CR 17507 (OR 16223)  IIT (ISM) Dhanbad — Applied Geophysics
+295. CR 17665 (OR 12842)  IIT Roorkee — Architecture
+296. CR 17892 (OR 16335)  IIT (ISM) Dhanbad — Applied Geology
+297. CR 18156 (OR 16833)  IIT Jammu — Materials Engineering
+298. CR 18310 (OR 14939)  IIT Jodhpur — Chemistry with Specialization
+299. CR 18334 (OR 16394)  IIT (ISM) Dhanbad — Chemical Science
+300. CR 18368 (OR 15891)  IIT (ISM) Dhanbad — Physical Science
+301. CR 18979 (OR 16198)  IIT Dharwad — Interdisciplinary Sciences
+302. CR 19141 (OR  9970)  IIT Kharagpur — Architecture
+303. CR 20792 (OR 18471)  IIT (BHU) Varanasi — Architecture
