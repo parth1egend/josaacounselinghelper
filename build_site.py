@@ -7,11 +7,32 @@ from groups import CHIPS
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CSV = os.path.join(HERE, "josaa_iit_2025_r6.csv")
+PLACEMENT_CSV = os.path.join(HERE, "placement_2025.csv")
 OUT = os.path.join(HERE, "index.html")
+
+# Placement stats curated from official IIT placement reports (data/ images),
+# keyed by (institute_short, program_core). Only a subset of colleges/programs
+# have data — programs without a match show "—" on the site.
+def _num(s):
+    s = (s or "").strip()
+    return float(s) if s else None
+
+placement = {}
+if os.path.exists(PLACEMENT_CSV):
+    with open(PLACEMENT_CSV, encoding="utf-8") as f:
+        for p in csv.DictReader(f):
+            placement[(p["institute_short"], p["program_core"])] = {
+                "avg": _num(p["avg_lpa"]),
+                "median": _num(p["median_lpa"]),
+                "high": _num(p["highest_lpa"]),
+                "pct": _num(p["placement_pct"]),
+                "src": p["source"].strip(),
+            }
 
 records, institutes, cores = [], set(), set()
 with open(CSV, encoding="utf-8") as f:
     for r in csv.DictReader(f):
+        pl = placement.get((r["institute_short"], r["program_core"]))
         records.append({
             "inst": r["institute_short"],
             "prog": r["program"],
@@ -21,9 +42,12 @@ with open(CSV, encoding="utf-8") as f:
             "gender": "Female" if r["gender"] == "Female-only" else "Neutral",
             "open": int(r["opening_rank"]),
             "close": int(r["closing_rank"]),
+            "pl": pl,
         })
         institutes.add(r["institute_short"])
         cores.add(r["program_core"])
+
+placed_records = sum(1 for r in records if r["pl"])
 
 institutes = sorted(institutes)
 cores = sorted(cores)
@@ -71,6 +95,8 @@ button.reset:hover{border-color:var(--accent)}
 .chip:hover{border-color:var(--accent);color:var(--txt)}
 .chip.active{background:var(--accent);border-color:var(--accent);color:#fff}
 .chip .n{opacity:.7;font-size:11px;margin-left:4px}
+#colleges .chip.active{background:#2d7d57;border-color:#2d7d57}
+.selnote{text-transform:none;letter-spacing:0;color:var(--muted);font-size:11px;margin-left:6px}
 .stats{display:flex;gap:14px;flex-wrap:wrap;margin:12px 0;font-size:13px}
 .stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 14px}
 .stat b{font-size:17px;display:block}
@@ -87,6 +113,12 @@ tr:hover td{background:rgba(68,147,248,.08)}
 .badge{display:inline-block;padding:2px 8px;border-radius:6px;font-size:11px;font-weight:600;white-space:nowrap}
 .badge.ok{background:var(--ok);color:#d3f9d8}.badge.warn{background:var(--warn);color:#fff3bf}.badge.no{background:var(--no);color:#ffc9c9}
 .prog{font-weight:500}
+td.pkg{text-align:right;white-space:nowrap}
+td.pkg b{color:#56d364;font-size:14px}
+td.pkg-pct b{color:var(--accent);font-size:13px;font-weight:600}
+td.pkg .pkgsub{display:block;font-size:10.5px;color:var(--muted);font-weight:400}
+td.empty-pkg{color:var(--line)}
+th[data-k="_pl"],td.pkg{border-left:1px solid var(--line)}
 .degtag{display:inline-block;margin-left:6px;font-size:10.5px;color:var(--muted);border:1px solid var(--line);border-radius:5px;padding:0 5px;vertical-align:middle}
 mark{background:#3b5bdb;color:#fff;border-radius:2px;padding:0 1px}
 .empty{padding:30px;text-align:center;color:var(--muted)}
@@ -96,7 +128,7 @@ mark{background:#3b5bdb;color:#fff;border-radius:2px;padding:0 1px}
 <body>
 <header>
   <h1>JoSAA 2025 · Round 6 — IIT Closing Ranks</h1>
-  <div class="sub">Quota: All-India (AI) · Seat type: OPEN · Source: verified <code>josaa_iit_2025_r6.csv</code>. Pick multiple course groups and/or type keywords — matching is fuzzy (substring), so variants group together.</div>
+  <div class="sub">Quota: All-India (AI) · Seat type: OPEN · Source: verified <code>josaa_iit_2025_r6.csv</code>. Pick multiple colleges and course groups (and/or type keywords) — course matching is fuzzy (substring), so variants group together.</div>
 </header>
 <div class="wrap">
   <div class="controls">
@@ -104,10 +136,6 @@ mark{background:#3b5bdb;color:#fff;border-radius:2px;padding:0 1px}
       <label for="course">Course keywords (comma-separated, fuzzy)</label>
       <input id="course" list="corelist" placeholder="e.g. artificial, vlsi, electrical" autocomplete="off">
       <datalist id="corelist"></datalist>
-    </div>
-    <div class="field">
-      <label for="college">College</label>
-      <select id="college"></select>
     </div>
     <div class="field">
       <label for="degree">Degree / duration</label>
@@ -138,6 +166,9 @@ mark{background:#3b5bdb;color:#fff;border-radius:2px;padding:0 1px}
     <button class="reset" id="reset">Reset all</button>
   </div>
 
+  <div class="seclabel">Colleges — click to multi-select <span id="collegesel" class="selnote"></span></div>
+  <div class="chips" id="colleges"></div>
+
   <div class="seclabel">Course groups — click to multi-select (combines as OR)</div>
   <div class="chips" id="chips"></div>
   <div class="activek" id="activek"></div>
@@ -156,6 +187,7 @@ mark{background:#3b5bdb;color:#fff;border-radius:2px;padding:0 1px}
       <th class="num" data-k="open">Opening</th>
       <th data-k="inst">Institute</th>
       <th data-k="prog">Program</th>
+      <th class="num" data-k="_pl">Avg pkg (LPA)</th>
     </tr></thead>
     <tbody id="tbody"></tbody>
   </table>
@@ -163,7 +195,8 @@ mark{background:#3b5bdb;color:#fff;border-radius:2px;padding:0 1px}
 
   <div class="foot">
     ✅ attainable = closing rank ≥ your rank · ⚠️ borderline = within 150 above your rank · ❌ out of reach.<br>
-    Course groups cover all 131 programs (verified). Selecting several groups / typing several comma-separated terms shows the union. Degree filter: "Dual degree" = 5-yr B.Tech-M.Tech, BS-MS and B.Tech+MBA integrated programs.
+    Course groups cover all 131 programs (verified). Selecting several groups / typing several comma-separated terms shows the union. Degree filter: "Dual degree" = 5-yr B.Tech-M.Tech, BS-MS and B.Tech+MBA integrated programs.<br>
+    <b>Avg pkg (LPA)</b> = average annual CTC in lakhs, from official IIT placement reports — currently available for 10 IITs: BHU Varanasi, Delhi, Gandhinagar, Guwahati, Indore, Jodhpur, Kanpur, Kharagpur, Roorkee and Ropar; "—" means no published data. Hover a figure for median / highest / placement % and the source. IIT Delhi publishes only a placement rate, shown in blue as "<span style="color:var(--accent)">X%</span> placed". Placement years vary by IIT (2024-25 / 2025) and are indicative only.
   </div>
 </div>
 
@@ -172,14 +205,31 @@ const DATA=__DATA__, INSTITUTES=__INSTITUTES__, CORES=__CORES__, CHIPS=__CHIPS__
 const $=s=>document.querySelector(s);
 const tbody=$("#tbody");
 const activeChips=new Set();
+const activeColleges=new Set();
 let sortKey="close", sortDir=1;
 
 function progCount(kws){return DATA.filter(r=>kws.some(k=>r.prog.toLowerCase().includes(k))).length;}
+function instProgCount(inst){return new Set(DATA.filter(r=>r.inst===inst).map(r=>r.prog)).size;}
 
-// college dropdown + course autocomplete
-$("#college").innerHTML='<option value="">All IITs ('+INSTITUTES.length+')</option>'+
-  INSTITUTES.map(i=>`<option value="${i}">${i}</option>`).join("");
+// course autocomplete
 $("#corelist").innerHTML=CORES.map(c=>`<option value="${c}">`).join("");
+
+// college chips (multi-select; none selected = all IITs)
+const collegeBox=$("#colleges");
+function updateCollegeSel(){
+  $("#collegesel").textContent = activeColleges.size
+    ? `· ${activeColleges.size} of ${INSTITUTES.length} selected`
+    : `· none selected → all ${INSTITUTES.length} IITs`;
+}
+INSTITUTES.forEach(inst=>{
+  const el=document.createElement("span");
+  el.className="chip";
+  el.innerHTML=`${inst}<span class="n">${instProgCount(inst)}</span>`;
+  el.onclick=()=>{activeColleges.has(inst)?activeColleges.delete(inst):activeColleges.add(inst);
+    el.classList.toggle("active");updateCollegeSel();render();};
+  collegeBox.appendChild(el);
+});
+updateCollegeSel();
 
 // chips (multi-select)
 const chipBox=$("#chips");
@@ -199,6 +249,24 @@ function activeKeywords(){
   return kws;
 }
 function statusOf(c,r){return c>=r?(c-r<=150?"warn":"ok"):"no";}
+function fmtL(v){return v==null?"":(Number.isInteger(v)?v:v.toFixed(1))+" L";}
+function plCell(r){
+  const p=r.pl;
+  if(!p) return '<td class="num pkg empty-pkg">—</td>';
+  // Some IITs (e.g. Delhi) publish only a placement rate, no package figures.
+  if(p.avg==null){
+    if(p.pct==null) return '<td class="num pkg empty-pkg">—</td>';
+    const tip=esc("Placement rate "+p.pct+"% (no package data published)\nSource: "+p.src);
+    return `<td class="num pkg pkg-pct" title="${tip}"><b>${p.pct}%</b><span class="pkgsub">placed</span></td>`;
+  }
+  const det=[];
+  if(p.median!=null) det.push("Median "+fmtL(p.median));
+  if(p.high!=null)   det.push("Highest "+fmtL(p.high));
+  if(p.pct!=null)    det.push(p.pct+"% placed");
+  const tip=esc(("Average "+fmtL(p.avg)+(det.length?" · "+det.join(" · "):""))+"\nSource: "+p.src);
+  const sub=det.length?`<span class="pkgsub">${esc(det.join(" · "))}</span>`:"";
+  return `<td class="num pkg" title="${tip}"><b>${p.avg.toFixed(1)}</b>${sub}</td>`;
+}
 function esc(s){return s.replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]));}
 function hl(t,kws){
   if(!kws.length) return esc(t);
@@ -209,7 +277,7 @@ function hl(t,kws){
 }
 
 function render(){
-  const college=$("#college").value, gender=$("#gender").value,
+  const gender=$("#gender").value,
         rank=parseInt($("#rank").value)||0, onlyok=$("#onlyok").checked, degf=$("#degree").value;
   const kws=activeKeywords();
 
@@ -219,7 +287,7 @@ function render(){
 
   let rows=DATA.filter(r=>{
     if(gender&&r.gender!==gender) return false;
-    if(college&&r.inst!==college) return false;
+    if(activeColleges.size && !activeColleges.has(r.inst)) return false;
     if(degf==="dur4"&&r.dur!==4) return false;
     if(degf==="dur5"&&r.dur!==5) return false;
     if(degf==="dual"&&!r.dual) return false;
@@ -232,6 +300,13 @@ function render(){
   rows.sort((a,b)=>{
     let av=a[sortKey],bv=b[sortKey];
     if(sortKey==="_status"){const o={ok:0,warn:1,no:2};av=o[statusOf(a.close,rank)];bv=o[statusOf(b.close,rank)];}
+    if(sortKey==="_pl"){
+      const va=a.pl&&a.pl.avg!=null?a.pl.avg:null, vb=b.pl&&b.pl.avg!=null?b.pl.avg:null;
+      if(va==null&&vb==null) return 0;
+      if(va==null) return 1;          // programs without data always sink to the bottom
+      if(vb==null) return -1;
+      return (va-vb)*sortDir;
+    }
     return (typeof av==="string")?av.localeCompare(bv)*sortDir:(av-bv)*sortDir;
   });
 
@@ -243,7 +318,8 @@ function render(){
       :'<span class="badge no">❌ No</span>';
     out.push(`<tr class="${st}"><td class="num">${idx+1}</td><td>${badge}</td>`+
       `<td class="num">${r.close}</td><td class="num">${r.open}</td><td>${esc(r.inst)}</td>`+
-      `<td><span class="prog">${hl(r.prog,kws)}</span><span class="degtag">${esc(r.deg)}</span></td></tr>`);
+      `<td><span class="prog">${hl(r.prog,kws)}</span><span class="degtag">${esc(r.deg)}</span></td>`+
+      plCell(r)+`</tr>`);
   });
   tbody.innerHTML=out.join("");
   $("#empty").style.display=rows.length?"none":"block";
@@ -256,11 +332,13 @@ document.querySelectorAll("th").forEach(th=>{
     document.querySelectorAll("th").forEach(t=>t.textContent=t.textContent.replace(/[ ▲▼]+$/,""));
     th.textContent+=sortDir>0?" ▲":" ▼"; render();};
 });
-["course","college","degree","gender","rank","onlyok"].forEach(id=>{
+["course","degree","gender","rank","onlyok"].forEach(id=>{
   $("#"+id).addEventListener("input",render); $("#"+id).addEventListener("change",render);});
-$("#reset").onclick=()=>{$("#course").value="";$("#college").value="";$("#degree").value="";
+$("#reset").onclick=()=>{$("#course").value="";$("#degree").value="";
   $("#gender").value="Neutral";$("#rank").value="2229";$("#onlyok").checked=false;
-  activeChips.clear();document.querySelectorAll(".chip").forEach(c=>c.classList.remove("active"));render();};
+  activeChips.clear();activeColleges.clear();
+  document.querySelectorAll(".chip").forEach(c=>c.classList.remove("active"));
+  updateCollegeSel();render();};
 render();
 </script>
 </body>
@@ -274,4 +352,5 @@ with open(OUT, "w", encoding="utf-8") as f:
     f.write(out)
 print(f"Wrote {OUT}")
 print(f"records:{len(records)} institutes:{len(institutes)} course-suggestions:{len(cores)} "
-      f"chips:{len(CHIPS)} degree-types:{len(degree_types)}")
+      f"chips:{len(CHIPS)} degree-types:{len(degree_types)} "
+      f"placement-rows:{len(placement)} records-with-placement:{placed_records}")
